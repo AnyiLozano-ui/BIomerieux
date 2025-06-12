@@ -1,0 +1,19 @@
+.option-container {
+	@apply flex gap-[10px] justify-center flex-col mt-[30px];
+}
+
+.option-container .checkbox-container {
+    @apply flex gap-[10px] items-center;
+}
+
+.option-container .checkbox-container .checkbox   {
+    @apply rounded-[5px] border-solid border-[1px] bg-white border-white w-[20px] h-[20px] flex justify-center items-center;
+}
+
+.option-container .checkbox-container p {
+    @apply text-[14px] text-white w-[calc(100%-30px)];
+}
+
+.button-container {
+    @apply w-full flex justify-end items-center;
+}

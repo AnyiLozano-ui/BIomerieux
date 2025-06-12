@@ -1,0 +1,13 @@
+.complete-container {
+	@apply absolute top-0 left-0 w-full h-full bg-[rgba(255,255,255,.9)] z-[1] flex justify-center items-center flex-col;
+}
+
+.complete-container .complete-title {
+	@apply text-[#00427F] font-bold text-[24px];
+}
+.complete-container .complete-subtitle {
+	@apply text-[#379531] text-[20px];
+}
+.complete-container .complete-record {
+	@apply text-[#379531] text-[20px];
+}
