@@ -235,8 +235,8 @@ const useQuiz = ({ data, content, id, module, course }) => {
 				})
 			}
 		} else if (
-			new Date(data.user_progress.block).getTime() + 24 * 60 * 60 * 1000 >
-			new Date()
+			new Date(data.user_progress.block).getHours + 4 <=
+			new Date().getHours()
 		) {
 			const data_to_root = JSON.parse(
 				localStorage.getItem('persist:root')

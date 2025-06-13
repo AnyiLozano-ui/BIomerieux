@@ -20,7 +20,7 @@ const CompleteQuiz = ({ data, isError }) => {
 				<h2 className="complete-title" style={{ color: '#D50000' }}>Lo sentimos</h2>
 				<h4 className="complete-subtitle" style={{ color: '#D50000' }}>Perdiste todas tus vidas</h4>
 				<h4 className="complete-record" style={{ color: '#D50000' }}>
-					<b>Puedes volver a intentar el quiz dentro de 24 horas.</b>
+					<b>Puedes volver a intentar el quiz dentro de 4 horas.</b>
 				</h4>
 			</div>
 		)
