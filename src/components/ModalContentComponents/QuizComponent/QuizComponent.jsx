@@ -33,7 +33,7 @@ const QuizComponent = (props) => {
 			{data.questions && (
 				<CardStyle>
 					<div className="card-entry">
-						{(data.complete_quizzes || (user_progress && user_progress.lives === 0)) && <CompleteQuiz data={data} isError={(user_progress && user_progress.lives === 0)}/>}
+						{(data.complete_quizzes) && <CompleteQuiz data={data}/>}
 
 						<div className="card-left">
 							<Question
