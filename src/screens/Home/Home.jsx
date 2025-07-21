@@ -29,7 +29,7 @@ const Home = () => {
                             title="bioMérieux in 1 minute"
                             width="660"
                             height="371"
-                            src="https://www.youtube.com/embed/1NvfAhHUlBg?si=bbMf3PtdLWAOt06l"
+                            src="https://www.youtube-nocookie.com/embed/1NvfAhHUlBg?si=bbMf3PtdLWAOt06l"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen=""

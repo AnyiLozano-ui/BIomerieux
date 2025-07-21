@@ -19,7 +19,7 @@ const QuienesSomos = () => {
             title="BioMerieux - Pioneering Diagnostics - Introducción"
             width="660"
             height="371"
-            src="https://www.youtube.com/embed/NMpkXBvGeoc?feature=oembed"
+            src="https://www.youtube-nocookie.com/embed/NMpkXBvGeoc?feature=oembed"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen=""
